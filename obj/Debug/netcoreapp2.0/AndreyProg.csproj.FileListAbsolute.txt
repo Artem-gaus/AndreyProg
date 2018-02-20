@@ -8,3 +8,13 @@ B:\Job\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.AssemblyInfoInputs.cache
 B:\Job\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.AssemblyInfo.cs
 B:\Job\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.dll
 B:\Job\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.pdb
+B:\Job\AndreyCode\AndreyProg\bin\Debug\netcoreapp2.0\AndreyProg.deps.json
+B:\Job\AndreyCode\AndreyProg\bin\Debug\netcoreapp2.0\AndreyProg.runtimeconfig.json
+B:\Job\AndreyCode\AndreyProg\bin\Debug\netcoreapp2.0\AndreyProg.runtimeconfig.dev.json
+B:\Job\AndreyCode\AndreyProg\bin\Debug\netcoreapp2.0\AndreyProg.dll
+B:\Job\AndreyCode\AndreyProg\bin\Debug\netcoreapp2.0\AndreyProg.pdb
+B:\Job\AndreyCode\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.csproj.CoreCompileInputs.cache
+B:\Job\AndreyCode\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.AssemblyInfoInputs.cache
+B:\Job\AndreyCode\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.AssemblyInfo.cs
+B:\Job\AndreyCode\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.dll
+B:\Job\AndreyCode\AndreyProg\obj\Debug\netcoreapp2.0\AndreyProg.pdb

@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Job\\AndreyProg\\AndreyProg.csproj",
+      "projectUniqueName": "B:\\Job\\AndreyCode\\AndreyProg\\AndreyProg.csproj",
       "projectName": "AndreyProg",
-      "projectPath": "B:\\Job\\AndreyProg\\AndreyProg.csproj",
+      "projectPath": "B:\\Job\\AndreyCode\\AndreyProg\\AndreyProg.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "B:\\Job\\AndreyProg\\obj\\",
+      "outputPath": "B:\\Job\\AndreyCode\\AndreyProg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

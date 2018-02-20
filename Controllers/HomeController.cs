@@ -18,7 +18,8 @@ namespace AndreyProg.Controllers
 
         public IActionResult Index()
         {
-            return View(db.Books.ToList());
+            ViewBag.Books = db.Books.ToList();
+            return View();
         }
 
         // public IActionResult About()

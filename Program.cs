@@ -20,8 +20,15 @@ namespace AndreyProg
             using (var scope = host.Services.CreateScope())
             {
                 var service = scope.ServiceProvider;
-                var context = service.GetRequiredService<BookContext>();
-                SampleData.Init(context);
+                try{
+                    var context = service.GetRequiredService<BookContext>();
+                    SampleData.Init(context);
+                }
+                catch(Exception ex)
+                {
+                    var logger = service.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occured while seeding database");
+                }
             }
             host.Run();
         }
