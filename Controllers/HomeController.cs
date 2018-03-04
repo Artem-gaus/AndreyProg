@@ -21,13 +21,33 @@ namespace AndreyProg.Controllers
             ViewBag.Books = db.Books.ToList();
             return View();
         }
+        
+        [HttpGet]
+        public IActionResult Buy(int id)
+        {
+            ViewBag.BookId = id;
+            return View();
+        }
+        [HttpPost]
+        public string Buy(Order order)
+        {
+            db.Orders.Add(order);
+            db.SaveChanges(); 
+            return "thank you";
+        }
 
-        // public IActionResult About()
-        // {
-        //     ViewData["Message"] = "Your application description page.";
+
+
+
+        //  public IActionResult About()
+        //  {
+            
+        //     ViewBag.Books = db.Books.ToList();
+        //     ViewBag.Books.Remove();
+
 
         //     return View();
-        // }
+        //  }
 
         // public IActionResult Contact()
         // {
